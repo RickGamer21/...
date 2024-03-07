@@ -18,12 +18,12 @@ public class Player : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        health += damage;
-        print("Здоровье игрока: " + health);
+        health -= damage;
+        print("Г‡Г¤Г®Г°Г®ГўГјГҐ ГЁГЈГ°Г®ГЄГ : " + health);
     }
     public void CollectCoins()
     {
         coins++;
-        print("Собранные монеты: " + coins);
+        print("Г‘Г®ГЎГ°Г Г­Г­Г»ГҐ Г¬Г®Г­ГҐГІГ»: " + coins);
     }
 }
